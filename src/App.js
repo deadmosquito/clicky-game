@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+import FriendCard from "../clicky-game/src/components/FriendCard";
+import Wrapper from "../clicky-game/src/components/Wrapper";
+import Title from "../clicky-game/src/components/Title";
 import friends from "./friends.json";
 
 class App extends Component {
@@ -39,3 +39,4 @@ class App extends Component {
 }
 
 export default App;
+
