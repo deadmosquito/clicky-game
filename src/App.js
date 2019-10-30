@@ -7,7 +7,9 @@ import cards from "./cards.json";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    cards
+    cards,
+    score: 0,
+    highscore: 0
   };
 
   removeFriend = id => {
