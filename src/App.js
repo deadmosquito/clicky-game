@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Card from "../clicky-game/src/components/Card";
-import Wrapper from "../clicky-game/src/components/Wrapper";
-import Header from "../clicky-game/src/components/Header";
+import Card from "./components/Card";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
 import cards from "./cards.json";
 
 class App extends Component {
@@ -22,8 +22,8 @@ class App extends Component {
     return (
       <Wrapper>
         <Header>Friends List</Header>
-        {this.state.friends.map(friend => (
-          <FriendCard
+        {this.state.cards.map(friend => (
+          <Card
             removeFriend={this.removeFriend}
             id={friend.id}
             key={friend.id}
