@@ -7,6 +7,7 @@ https://arcane-bastion-15159.herokuapp.com/
 ## Built With
 
 * ReactJS
+* Heroku
 
 ## Authors
 
